@@ -1,0 +1,16 @@
+﻿# Virtual envs
+.venv/
+.venv310/
+venv/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+# editor
+.vscode/
+.idea/
+# data/artifacts
+*.sqlite
+*.db
+reports/
+logs/
