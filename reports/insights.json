@@ -1,0 +1,354 @@
+[
+  {
+    "hypothesis": "ROAS drop >10% may be driven by creative fatigue or audience shift",
+    "evidence": {
+      "roas_drop_pct": 0.39624812943674487
+    },
+    "confidence": 0.85,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'MEN  Signature  Soft' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.01055712688285207
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'MEN BOLD COLORS DROP' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.008401778017833563
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'MEN COMFORTMA LAUNCH' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.009541503245487281
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'MEN Signature Soft' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011149915759971027
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Me   Premium  Modal' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.006079735206968655
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Men  Bold  Colors  Drop' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.00982364149349133
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Men  ComfortMax  Launch' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011160912444850929
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Men  Premium  Modal' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.010484542676107158
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Men Bold Colors Drop' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.006505456083986963
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Men Premium Modal' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011748235544012435
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Men Signature Soft' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.01036429663270806
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Men | Athleisure Cooling' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011675443936787893
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Men_Premium_Modal' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.01153451321975054
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOEN  Cotton  Classics' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.005438850577767148
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN  Cotton  Classics' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.008357444794613374
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN  Seamless  Everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.005618352898797022
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN  Seamless- Everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.00856368563685637
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN C tton Classics' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.009171739826978532
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN Cotton Classics' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.0104256769559021
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN SEAMLESS EVERYDAY' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.0013809002631395104
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN SUMMER INVISIBLE' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.00953144486014609
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN Seamless Everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.009627345116988663
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN eamless Everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.008646736593873591
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN | STUDIO SPORTS' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.010778866277602401
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN_Cotton_Classics' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.009972700265361057
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'WOMEN_Seamless_Everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.007288767936113141
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Women  |  Studio  Sports' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011961621917028577
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Women Seamless Everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.008660462626167193
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Women Semless Everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011289745864840883
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Women Summer Invisible' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.010578302535493076
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Women | Studio Sports' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.008336362499387462
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Women | tudio Sports' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011332457204285341
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'Women_|_Studio_Sports' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.009518110960092883
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'men bold clors drop' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011904242501535435
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'men bold colors drop' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.007294779131144595
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'women  Summer  Invisible' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.011680590704889249
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'women Summer Invisible' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.010853900173284569
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'women cotton classics' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.010407221168906109
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'women s amless everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.010901548851410965
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'women s-mmer invisible' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.008492589422253855
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'women seamless everyday' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.006291648156374945
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'women summer invisible' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.0
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  },
+  {
+    "hypothesis": "Campaign 'women | studio sports' has low CTR and may benefit from creative refresh",
+    "evidence": {
+      "ctr": 0.009160650316891705
+    },
+    "confidence": 0.8,
+    "verdict": "supported"
+  }
+]
