@@ -1,7 +1,7 @@
 # kasparro-agentic-fb-analyst-pragathi-murali
 
 **Assignment:** Kasparro — Agentic Facebook Performance Analyst  
-**Author:** Allu Pragathi
+**Author:** Allu Pragathi 
 This repo implements a small multi-agent system that diagnoses ROAS drops, validates hypotheses,
 and proposes creative recommendations for low-CTR campaigns.
 
