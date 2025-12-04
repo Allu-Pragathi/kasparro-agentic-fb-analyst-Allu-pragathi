@@ -1,13 +1,10 @@
-# kasparro-agentic-fb-analyst-pragathi-murali
+# kasparro-agentic-fb-analyst-allu-pragathi
 
 **Assignment:** Kasparro — Agentic Facebook Performance Analyst  
-**Author:** Pragathi Murali (repo prepared with ChatGPT)
+**Author:** Allu Pragathi 
+This repo implements a complete multi-agent analytics system that analyzes Facebook Ads performance, diagnoses CTR/ROAS drops, validates hypotheses with strong evidence, and proposes creative recommendations linked to the actual performance drivers.
 
-This repo implements a small multi-agent system that diagnoses ROAS drops, validates hypotheses,
-and proposes creative recommendations for low-CTR campaigns.
-
-**Data**: a sample of the provided synthetic dataset is stored at `data/sample_fb_ads.csv`.
-The original uploaded CSV used: `/mnt/data/synthetic_fb_ads_undergarments.csv`.
+A full V2-grade pipeline is included: schema governance, insight generation, evaluator with confidence/impact/verdict, driver detection, prioritization, logging, and reproducible reporting.
 
 ## Quick start
 
@@ -15,29 +12,68 @@ The original uploaded CSV used: `/mnt/data/synthetic_fb_ads_undergarments.csv`.
 python -V  # should be >= 3.10
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-# Run the default analysis:
-python src/orchestrator/run.py "Analyze ROAS drop in last 7 days"
 ```
+## Run the analysis:
+```bash
+python run.py "why did CTR drop?"
+or run without a query:
+python run.py
+```
+Outputs will be generated under reports/ and logs/run_<timestamp>/.
 
 ## Repo map
-- `config/config.yaml` — thresholds and paths.
+- `config/config.yaml` —  global thresholds, lookbacks and paths.
+- `config/schema.json` — required columns, nullable fields, datatype expectations.
 - `data/sample_fb_ads.csv` — small sample dataset for quick runs.
-- `prompts/` — structured prompt files for each agent.
 - `src/agents/` — implementation of each agent.
-- `src/orchestrator/run.py` — main CLI entrypoint.
-- `reports/` — generated `insights.json`, `creatives.json`, `report.md`.
+   - planner.py
+   - dat_agent.py
+   - insight_agent.py
+   - evaluator.py
+   - creative_generator.py 
+- `src/utils/` — support utilities:
+   - io_utils.py
+   - logging_utils.py
+   - safe_call.py
+- `reports/` — generated
+   - insights.json
+   - creatives.json
+   - report.md
 - `logs/` — JSON traces.
-- `tests/` — minimal tests for evaluator.
+- `tests/` — includes test_evaluator.py.
 
 ## Reproducibility
-- Randomness is seeded in `config/config.yaml`.
-- Use the config flag `use_sample_data` to switch between sample and full CSV.
+- All thresholds, windows, parameters, and random seeds are controlled through config/config.yaml.
+- Data loading supports both sample and full datasets.
+- Each pipeline run creates a new folder under logs/run_<timestamp>/, containing:
+  - input summaries
+  - schema validation messages
+  - synthesized column warnings
+  - coercion warnings
+  - raw insights + validated insights
+  - creative recommendations
+- reports/top_insights.json surfaces the strongest insights for quick reviewer evaluation.
 
 ## Evaluation checklist alignment
-This repo includes:
-- separate agent files and prompt files
-- `reports/insights.json`, `reports/creatives.json`, `reports/report.md`
-- `logs/trace.json`
-- `tests/test_evaluator.py`
-- instructions to create a `v1.0` release and a PR titled "self-review".
-
+This V2 submission includes:
+- Proper agent separation and modular design
+- Strong evaluator:
+  - evidence (baseline/current CTR, deltas, impressions)
+  - impact classification
+  - confidence scoring
+  - verdict generation
+  - driver detection across multiple dimensions
+- Robust schema validation (alias handling, type coercion, default synthesis)
+- Full observability:
+  - per-run logs
+  - warnings for missing or coerced columns
+  - safe_call wrappers for all agents
+- Generated artifacts:
+  - reports/insights.json
+  - reports/top_insights.json
+  - reports/creatives.json
+  - reports/report.md
+- Passing tests (pytest -q → 3 passed)
+- Instructions to prepare:
+  - v1.0 GitHub release
+  - PR titled "self-review — Kasparro V2 submission"
