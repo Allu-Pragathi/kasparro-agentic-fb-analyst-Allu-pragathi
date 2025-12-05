@@ -1,0 +1,12 @@
+﻿# virtualenvs
+.venv310/
+.venv/
+venv/
+# caches
+__pycache__/
+*.pyc
+# logs and run artifacts
+logs/
+# IDE files
+.vscode/
+.ipynb_checkpoints/
